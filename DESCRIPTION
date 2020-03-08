@@ -1,0 +1,22 @@
+Package: rockerbuilder
+Type: Package
+Title: Convenience functions for building Rocker Dockerfiles
+Version: 0.1.0
+Authors@R: c(
+            person("Carl", "Boettiger", , "cboettig@gmail.com", c("aut", "cre"),
+                   comment = c(ORCID = "0000-0002-1642-628X")),
+            person("Noam", "Ross", , "ross@ecohealthalliance.org", role ="ctb",
+                   comment = c(ORCID = "0000-0002-2136-0000"))
+            )
+Maintainer: Noam Ross <noam.ross@gmail.com>
+Description: Used for building the Rocker Project versioned image stack.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    yaml,
+    whisker
+Suggests:
+    roxygen2
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.0.2
